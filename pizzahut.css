@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+
+}
+.navbar{
+    width:99vw;
+}
+.one{
+    background-color:#ff0000cf;
+}
+.navtxt{
+    color:white !important;
+    font-weight: bold; 
+    font-size: 20px;
+    padding: 1%;
+}
+/* end navbar */
+/* home */
+.bgimg{
+    background-image: url('https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?w=740&t=st=1707986515~exp=1707987115~hmac=329f046e0827fc2eb6f51289c2c7cf629d7368bf1ba210ae36044a2aa8e34be2');
+    width:100vw;
+    height:70vh;
+    background-position: center;
+    opacity:0.9;
+    background-size: cover;
+}
+/* heading */
+.heading{
+    color:white;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: bold;
+}
+.para{
+    color:white;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.bts{
+    background-color: red;
+    color:white;
+}
+.bts:hover{
+transform: scale(1.2);
+color:whitesmoke;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9%;
+}
+/* home section end */
+/* About */
+#About{
+    background-color: #fff;
+    width:100vw;
+  
+}
+
+
+.card-title{
+    color:red;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+/* payment */
+#Payment{  
+    width:100vw;
+}
+.form-label{
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.fa-brands
+{
+    font-size: 40px;
+    margin: 1%;
+}
+.fa-cc-mastercard{
+    color: orange;
+}
+.fa-cc-visa{
+    color:#0e7caf
+}
+/* footer    */
+.footer{
+    background-color:red;
+    width: 100vw;
+}
+.fa-brands{
+    color:white;
+}
+.fa-brands:hover{
+color:black;
+}
+.foot{
+    color:black;
+}
+.foot:hover{
+    color: #fff;
+}
+.fa-solid{
+    position: sticky;
+    color:white;
+    border:2px solid red;
+    background-color: red;
+    font-size: 30px;
+    bottom: 0%;
+    right:0%;
+}
+#app{
+    color: black;
+    text-align: center;
+}
+.card-img-top{
+    aspect-ratio: 3/2;
+ 
+    object-fit: cover;
+}
