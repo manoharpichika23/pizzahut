@@ -121,5 +121,5 @@ color:black;
 .card-img-top{
     aspect-ratio: 3/2;
  
-    object-fit: cover;
+    object-fit: cover; 
 }
